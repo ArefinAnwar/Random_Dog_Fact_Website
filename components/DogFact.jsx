@@ -26,9 +26,9 @@ export default function DogFact() {
 
     console.log(count_letters(fact));
 
-    var factTag = <h1 className='text-2xl text-center font-medium mt-3'>"{fact}"</h1>;
+    var factTag = <h1 className='text-2xl text-center font-medium mt-3'>&quot;{fact}&quot;</h1>;
     if (count_letters(fact) > 90) {
-        factTag = <h1 className='text-xl text-center font-medium mt-3'>"{fact}"</h1>;
+        factTag = <h1 className='text-xl text-center font-medium mt-3'>&quot;{fact}&quot;</h1>;
     }
 
 
